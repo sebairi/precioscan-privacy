@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Política de Privacidad - PrecioScan</title>
+  <title>Privacy Policy - PrecioScan</title>
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -13,219 +13,675 @@
       background: #f7f8f4;
       color: #1f1f1f;
     }
+
     .container {
       max-width: 900px;
       margin: 0 auto;
       padding: 32px 20px 48px;
       background: #ffffff;
     }
+
     h1, h2 {
       color: #1b5e20;
     }
+
     h1 {
       font-size: 30px;
       margin-bottom: 8px;
     }
+
     h2 {
       font-size: 22px;
       margin-top: 32px;
       margin-bottom: 10px;
     }
+
     p, li {
       font-size: 16px;
     }
+
     ul {
       padding-left: 22px;
     }
+
     .small {
       color: #555;
       font-size: 14px;
     }
+
     a {
       color: #1b5e20;
       word-break: break-word;
+    }
+
+    .lang-switcher {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #e4e7df;
+    }
+
+    .lang-btn {
+      border: 1px solid #1b5e20;
+      background: #ffffff;
+      color: #1b5e20;
+      padding: 10px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .lang-btn.active {
+      background: #1b5e20;
+      color: #ffffff;
+    }
+
+    .lang-section {
+      display: none;
+    }
+
+    .lang-section.active {
+      display: block;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Política de Privacidad de PrecioScan</h1>
-    <p class="small"><strong>Última actualización:</strong> 10/03/2026</p>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="es">Español</button>
+      <button class="lang-btn" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="pt-BR">Português (Brasil)</button>
+    </div>
 
-    <p>
-      Esta Política de Privacidad describe cómo funciona la aplicación <strong>PrecioScan</strong>,
-      qué información puede tratar, cómo se utiliza y qué opciones tiene el usuario.
-    </p>
+    <!-- ESPAÑOL -->
+    <section class="lang-section active" data-lang="es">
+      <h1>Política de Privacidad de PrecioScan</h1>
+      <p class="small"><strong>Última actualización:</strong> 10/03/2026</p>
 
-    <h2>1. Información general</h2>
-    <p>
-      PrecioScan es una aplicación para escanear productos, registrar precios, controlar presupuestos,
-      guardar historial de compras y generar reportes. La aplicación no requiere crear una cuenta
-      ni iniciar sesión para su uso normal.
-    </p>
+      <p>
+        Esta Política de Privacidad describe cómo funciona la aplicación <strong>PrecioScan</strong>,
+        qué información puede tratar, cómo se utiliza y qué opciones tiene el usuario.
+      </p>
 
-    <h2>2. Información que puede recopilar o almacenar la aplicación</h2>
-    <p>PrecioScan puede tratar las siguientes categorías de información:</p>
-    <ul>
-      <li>
-        <strong>Datos ingresados por el usuario:</strong> nombres de productos, precios, cantidades,
-        presupuesto, historial de compras y configuraciones de la app.
-      </li>
-      <li>
-        <strong>Datos de escaneo:</strong> códigos de barras escaneados mediante la cámara del dispositivo.
-      </li>
-      <li>
-        <strong>Datos almacenados localmente:</strong> la aplicación guarda información en el dispositivo
-        del usuario mediante almacenamiento local, incluyendo bases de datos locales y preferencias
-        de configuración.
-      </li>
-      <li>
-        <strong>Datos relacionados con publicidad:</strong> si la versión gratuita muestra anuncios,
-        proveedores externos de publicidad como Google AdMob pueden recopilar información técnica
-        del dispositivo y otros datos necesarios para mostrar, medir y mejorar anuncios.
-      </li>
-      <li>
-        <strong>Datos relacionados con compras dentro de la app:</strong> si el usuario adquiere
-        PrecioScan Pro, el procesamiento del pago y la validación de la compra se realizan a través
-        de Google Play y sus sistemas asociados.
-      </li>
-    </ul>
+      <h2>1. Información general</h2>
+      <p>
+        PrecioScan es una aplicación para escanear productos, registrar precios, controlar presupuestos,
+        guardar historial de compras y generar reportes. La aplicación no requiere crear una cuenta
+        ni iniciar sesión para su uso normal.
+      </p>
 
-    <h2>3. Uso de la cámara</h2>
-    <p>
-      PrecioScan utiliza la cámara únicamente para escanear códigos de barras.
-      La aplicación no utiliza la cámara para grabar video, tomar fotografías personales
-      ni recopilar imágenes con otros fines.
-    </p>
+      <h2>2. Información que puede recopilar o almacenar la aplicación</h2>
+      <p>PrecioScan puede tratar las siguientes categorías de información:</p>
+      <ul>
+        <li>
+          <strong>Datos ingresados por el usuario:</strong> nombres de productos, precios, cantidades,
+          presupuesto, historial de compras y configuraciones de la app.
+        </li>
+        <li>
+          <strong>Datos de escaneo:</strong> códigos de barras escaneados mediante la cámara del dispositivo.
+        </li>
+        <li>
+          <strong>Datos almacenados localmente:</strong> la aplicación guarda información en el dispositivo
+          del usuario mediante almacenamiento local, incluyendo bases de datos locales y preferencias
+          de configuración.
+        </li>
+        <li>
+          <strong>Datos relacionados con publicidad:</strong> si la versión gratuita muestra anuncios,
+          proveedores externos de publicidad como Google AdMob pueden recopilar información técnica
+          del dispositivo y otros datos necesarios para mostrar, medir y mejorar anuncios.
+        </li>
+        <li>
+          <strong>Datos relacionados con compras dentro de la app:</strong> si el usuario adquiere
+          PrecioScan Pro, el procesamiento del pago y la validación de la compra se realizan a través
+          de Google Play y sus sistemas asociados.
+        </li>
+      </ul>
 
-    <h2>4. Consulta de productos a OpenFoodFacts</h2>
-    <p>
-      Cuando el usuario escanea un código de barras, la aplicación puede consultar el servicio
-      <strong>OpenFoodFacts</strong> para intentar obtener automáticamente el nombre del producto.
-      En ese proceso, el código de barras escaneado puede enviarse a dicho servicio externo.
-    </p>
-    <p>
-      PrecioScan no controla el funcionamiento, disponibilidad ni políticas de privacidad de OpenFoodFacts.
-      Se recomienda al usuario revisar también la política de privacidad de ese servicio si lo considera necesario.
-    </p>
+      <h2>3. Uso de la cámara</h2>
+      <p>
+        PrecioScan utiliza la cámara únicamente para escanear códigos de barras.
+        La aplicación no utiliza la cámara para grabar video, tomar fotografías personales
+        ni recopilar imágenes con otros fines.
+      </p>
 
-    <h2>5. Almacenamiento local en el dispositivo</h2>
-    <p>
-      La información principal utilizada por PrecioScan, como productos escaneados, historial,
-      presupuestos, último precio recordado y preferencias, se almacena principalmente
-      <strong>en el dispositivo del usuario</strong>.
-    </p>
-    <p>
-      Esto significa que muchos de los datos operativos de la aplicación no se envían
-      automáticamente a servidores propios de PrecioScan.
-    </p>
+      <h2>4. Consulta de productos a OpenFoodFacts</h2>
+      <p>
+        Cuando el usuario escanea un código de barras, la aplicación puede consultar el servicio
+        <strong>OpenFoodFacts</strong> para intentar obtener automáticamente el nombre del producto.
+        En ese proceso, el código de barras escaneado puede enviarse a dicho servicio externo.
+      </p>
+      <p>
+        PrecioScan no controla el funcionamiento, disponibilidad ni políticas de privacidad de OpenFoodFacts.
+        Se recomienda al usuario revisar también la política de privacidad de ese servicio si lo considera necesario.
+      </p>
 
-    <h2>6. Publicidad</h2>
-    <p>
-      La versión gratuita de PrecioScan puede mostrar anuncios mediante <strong>Google AdMob</strong>.
-      Google y sus socios pueden tratar ciertos datos técnicos, como identificadores del dispositivo,
-      dirección IP aproximada, información del sistema, eventos de interacción con anuncios
-      y otra información necesaria para la entrega, medición y mejora de la publicidad.
-    </p>
-    <p>
-      El tratamiento de esos datos por parte de Google AdMob se rige por las políticas de Google.
-    </p>
+      <h2>5. Almacenamiento local en el dispositivo</h2>
+      <p>
+        La información principal utilizada por PrecioScan, como productos escaneados, historial,
+        presupuestos, último precio recordado y preferencias, se almacena principalmente
+        <strong>en el dispositivo del usuario</strong>.
+      </p>
+      <p>
+        Esto significa que muchos de los datos operativos de la aplicación no se envían
+        automáticamente a servidores propios de PrecioScan.
+      </p>
 
-    <h2>7. Compras dentro de la aplicación</h2>
-    <p>
-      PrecioScan puede ofrecer una compra única denominada <strong>PrecioScan Pro</strong>,
-      que permite eliminar anuncios y desbloquear funciones premium como la exportación de reportes.
-    </p>
-    <p>
-      Las compras dentro de la aplicación son procesadas por <strong>Google Play</strong>.
-      PrecioScan no almacena datos completos de tarjetas de crédito ni datos financieros sensibles del usuario.
-    </p>
+      <h2>6. Publicidad</h2>
+      <p>
+        La versión gratuita de PrecioScan puede mostrar anuncios mediante <strong>Google AdMob</strong>.
+        Google y sus socios pueden tratar ciertos datos técnicos, como identificadores del dispositivo,
+        dirección IP aproximada, información del sistema, eventos de interacción con anuncios
+        y otra información necesaria para la entrega, medición y mejora de la publicidad.
+      </p>
+      <p>
+        El tratamiento de esos datos por parte de Google AdMob se rige por las políticas de Google.
+      </p>
 
-    <h2>8. Exportación y compartición de reportes</h2>
-    <p>
-      La aplicación puede permitir exportar reportes en formatos como CSV o Excel.
-      Cuando el usuario utiliza la función de exportación, el archivo se genera en el dispositivo
-      y luego puede ser compartido manualmente por el usuario con otras aplicaciones o servicios.
-    </p>
-    <p>
-      El uso posterior de esos archivos por terceros dependerá de la aplicación o servicio
-      elegido por el usuario para compartirlos.
-    </p>
+      <h2>7. Compras dentro de la aplicación</h2>
+      <p>
+        PrecioScan puede ofrecer una compra única denominada <strong>PrecioScan Pro</strong>,
+        que permite eliminar anuncios y desbloquear funciones premium como la exportación de reportes.
+      </p>
+      <p>
+        Las compras dentro de la aplicación son procesadas por <strong>Google Play</strong>.
+        PrecioScan no almacena datos completos de tarjetas de crédito ni datos financieros sensibles del usuario.
+      </p>
 
-    <h2>9. Base legal y finalidad del tratamiento</h2>
-    <p>
-      La información tratada por PrecioScan se utiliza para:
-    </p>
-    <ul>
-      <li>Permitir el funcionamiento principal de la aplicación.</li>
-      <li>Guardar productos, compras, historial y reportes.</li>
-      <li>Mostrar anuncios en la versión gratuita.</li>
-      <li>Validar y restaurar compras de la versión Pro.</li>
-      <li>Aplicar configuraciones elegidas por el usuario, como tema o moneda.</li>
-    </ul>
+      <h2>8. Exportación y compartición de reportes</h2>
+      <p>
+        La aplicación puede permitir exportar reportes en formatos como CSV o Excel.
+        Cuando el usuario utiliza la función de exportación, el archivo se genera en el dispositivo
+        y luego puede ser compartido manualmente por el usuario con otras aplicaciones o servicios.
+      </p>
+      <p>
+        El uso posterior de esos archivos por terceros dependerá de la aplicación o servicio
+        elegido por el usuario para compartirlos.
+      </p>
 
-    <h2>10. Conservación de la información</h2>
-    <p>
-      Los datos almacenados localmente permanecen en el dispositivo del usuario
-      hasta que sean eliminados por el propio usuario, por la desinstalación de la app,
-      por limpieza manual de datos o por otras acciones del sistema operativo.
-    </p>
+      <h2>9. Base legal y finalidad del tratamiento</h2>
+      <p>
+        La información tratada por PrecioScan se utiliza para:
+      </p>
+      <ul>
+        <li>Permitir el funcionamiento principal de la aplicación.</li>
+        <li>Guardar productos, compras, historial y reportes.</li>
+        <li>Mostrar anuncios en la versión gratuita.</li>
+        <li>Validar y restaurar compras de la versión Pro.</li>
+        <li>Aplicar configuraciones elegidas por el usuario, como tema o moneda.</li>
+      </ul>
 
-    <h2>11. Eliminación de datos</h2>
-    <p>
-      El usuario puede eliminar los datos de la aplicación mediante las funciones internas disponibles,
-      y también puede eliminar la información almacenada localmente desinstalando la app
-      o borrando sus datos desde la configuración del dispositivo.
-    </p>
+      <h2>10. Conservación de la información</h2>
+      <p>
+        Los datos almacenados localmente permanecen en el dispositivo del usuario
+        hasta que sean eliminados por el propio usuario, por la desinstalación de la app,
+        por limpieza manual de datos o por otras acciones del sistema operativo.
+      </p>
 
-    <h2>12. Menores de edad</h2>
-    <p>
-      PrecioScan no está dirigida específicamente a menores de edad y no busca recopilar
-      deliberadamente información personal de niños.
-    </p>
+      <h2>11. Eliminación de datos</h2>
+      <p>
+        El usuario puede eliminar los datos de la aplicación mediante las funciones internas disponibles,
+        y también puede eliminar la información almacenada localmente desinstalando la app
+        o borrando sus datos desde la configuración del dispositivo.
+      </p>
 
-    <h2>13. Servicios de terceros</h2>
-    <p>
-      PrecioScan puede interactuar con servicios de terceros, entre ellos:
-    </p>
-    <ul>
-      <li>Google AdMob (publicidad)</li>
-      <li>Google Play Billing / Google Play (compras dentro de la app)</li>
-      <li>OpenFoodFacts (consulta de nombres de productos por código de barras)</li>
-    </ul>
-    <p>
-      Cada uno de estos servicios puede regirse por sus propias políticas de privacidad y condiciones.
-    </p>
+      <h2>12. Menores de edad</h2>
+      <p>
+        PrecioScan no está dirigida específicamente a menores de edad y no busca recopilar
+        deliberadamente información personal de niños.
+      </p>
 
-    <h2>14. Seguridad</h2>
-    <p>
-      Se adoptan medidas razonables para proteger la información utilizada por la aplicación.
-      Sin embargo, ningún sistema es completamente seguro y no puede garantizarse seguridad absoluta.
-    </p>
+      <h2>13. Servicios de terceros</h2>
+      <p>
+        PrecioScan puede interactuar con servicios de terceros, entre ellos:
+      </p>
+      <ul>
+        <li>Google AdMob (publicidad)</li>
+        <li>Google Play Billing / Google Play (compras dentro de la app)</li>
+        <li>OpenFoodFacts (consulta de nombres de productos por código de barras)</li>
+      </ul>
+      <p>
+        Cada uno de estos servicios puede regirse por sus propias políticas de privacidad y condiciones.
+      </p>
 
-    <h2>15. Cambios a esta política</h2>
-    <p>
-      Esta Política de Privacidad puede actualizarse en el futuro para reflejar cambios funcionales,
-      legales o técnicos. La versión más reciente estará disponible en la URL oficial publicada
-      por PrecioScan.
-    </p>
+      <h2>14. Seguridad</h2>
+      <p>
+        Se adoptan medidas razonables para proteger la información utilizada por la aplicación.
+        Sin embargo, ningún sistema es completamente seguro y no puede garantizarse seguridad absoluta.
+      </p>
 
-    <h2>16. Contacto</h2>
-    <p>
-      Si tenés preguntas sobre esta Política de Privacidad, podés comunicarte a:
-    </p>
-    <p>
-      <strong>Email: seba.r.iriarte@gmail.com</strong>
-    </p>
-    
-    <h2>17. URL oficial de la política</h2>
-    <p>
-      Esta política puede publicarse en:
-      <br />
-      <a href="https://sebairi.github.io/precioscan-privacy/">
-        https://sebairi.github.io/precioscan-privacy/
-      </a>
-    </p>
+      <h2>15. Cambios a esta política</h2>
+      <p>
+        Esta Política de Privacidad puede actualizarse en el futuro para reflejar cambios funcionales,
+        legales o técnicos. La versión más reciente estará disponible en la URL oficial publicada
+        por PrecioScan.
+      </p>
+
+      <h2>16. Contacto</h2>
+      <p>
+        Si tenés preguntas sobre esta Política de Privacidad, podés comunicarte a:
+      </p>
+      <p>
+        <strong>Email: seba.r.iriarte@gmail.com</strong>
+      </p>
+
+      <h2>17. URL oficial de la política</h2>
+      <p>
+        Esta política puede publicarse en:
+        <br />
+        <a href="https://sebairi.github.io/precioscan-privacy/">
+          https://sebairi.github.io/precioscan-privacy/
+        </a>
+      </p>
+    </section>
+
+    <!-- ENGLISH -->
+    <section class="lang-section" data-lang="en">
+      <h1>PrecioScan Privacy Policy</h1>
+      <p class="small"><strong>Last updated:</strong> 03/10/2026</p>
+
+      <p>
+        This Privacy Policy describes how the <strong>PrecioScan</strong> application works,
+        what information it may process, how that information is used,
+        and what choices the user has.
+      </p>
+
+      <h2>1. General information</h2>
+      <p>
+        PrecioScan is an application for scanning products, recording prices,
+        managing budgets, saving purchase history, and generating reports.
+        The application does not require the user to create an account
+        or sign in for normal use.
+      </p>
+
+      <h2>2. Information the application may collect or store</h2>
+      <p>PrecioScan may process the following categories of information:</p>
+      <ul>
+        <li>
+          <strong>Data entered by the user:</strong> product names, prices, quantities,
+          budget, purchase history, and app settings.
+        </li>
+        <li>
+          <strong>Scanning data:</strong> barcodes scanned using the device camera.
+        </li>
+        <li>
+          <strong>Locally stored data:</strong> the application stores information on the user's device
+          using local storage, including local databases and configuration preferences.
+        </li>
+        <li>
+          <strong>Advertising-related data:</strong> if the free version displays ads,
+          third-party advertising providers such as Google AdMob may collect technical device information
+          and other data needed to display, measure, and improve ads.
+        </li>
+        <li>
+          <strong>In-app purchase-related data:</strong> if the user purchases
+          PrecioScan Pro, payment processing and purchase validation are handled through
+          Google Play and its associated systems.
+        </li>
+      </ul>
+
+      <h2>3. Use of the camera</h2>
+      <p>
+        PrecioScan uses the camera only to scan barcodes.
+        The application does not use the camera to record video, take personal photographs,
+        or collect images for any other purpose.
+      </p>
+
+      <h2>4. Product lookup through OpenFoodFacts</h2>
+      <p>
+        When the user scans a barcode, the application may query the
+        <strong>OpenFoodFacts</strong> service in order to automatically retrieve the product name.
+        During that process, the scanned barcode may be sent to that external service.
+      </p>
+      <p>
+        PrecioScan does not control the operation, availability, or privacy policies of OpenFoodFacts.
+        Users are encouraged to review that service's privacy policy as well if they consider it necessary.
+      </p>
+
+      <h2>5. Local storage on the device</h2>
+      <p>
+        The main information used by PrecioScan, such as scanned products,
+        history, budgets, remembered last price, and preferences,
+        is stored primarily <strong>on the user's device</strong>.
+      </p>
+      <p>
+        This means that much of the application's operational data
+        is not automatically sent to PrecioScan's own servers.
+      </p>
+
+      <h2>6. Advertising</h2>
+      <p>
+        The free version of PrecioScan may display ads through <strong>Google AdMob</strong>.
+        Google and its partners may process certain technical data,
+        such as device identifiers, approximate IP address, system information,
+        ad interaction events, and other information required
+        for ad delivery, measurement, and improvement.
+      </p>
+      <p>
+        The processing of such data by Google AdMob is governed by Google's own policies.
+      </p>
+
+      <h2>7. In-app purchases</h2>
+      <p>
+        PrecioScan may offer a one-time purchase called <strong>PrecioScan Pro</strong>,
+        which removes ads and unlocks premium features such as report export.
+      </p>
+      <p>
+        In-app purchases are processed by <strong>Google Play</strong>.
+        PrecioScan does not store full credit card information
+        or sensitive financial data of the user.
+      </p>
+
+      <h2>8. Report export and sharing</h2>
+      <p>
+        The application may allow reports to be exported in formats such as CSV or Excel.
+        When the user uses the export feature, the file is generated on the device
+        and may then be manually shared by the user with other applications or services.
+      </p>
+      <p>
+        Any further use of those files by third parties will depend on the application
+        or service chosen by the user to share them.
+      </p>
+
+      <h2>9. Legal basis and purpose of processing</h2>
+      <p>
+        Information processed by PrecioScan is used to:
+      </p>
+      <ul>
+        <li>Enable the main functionality of the application.</li>
+        <li>Save products, purchases, history, and reports.</li>
+        <li>Display ads in the free version.</li>
+        <li>Validate and restore Pro version purchases.</li>
+        <li>Apply settings chosen by the user, such as theme or currency.</li>
+      </ul>
+
+      <h2>10. Data retention</h2>
+      <p>
+        Data stored locally remains on the user's device
+        until it is deleted by the user, by uninstalling the app,
+        by manually clearing the data, or by other operating system actions.
+      </p>
+
+      <h2>11. Data deletion</h2>
+      <p>
+        The user may delete application data through the internal features available,
+        and may also remove locally stored information by uninstalling the app
+        or clearing its data from the device settings.
+      </p>
+
+      <h2>12. Children</h2>
+      <p>
+        PrecioScan is not specifically directed to children
+        and does not intentionally seek to collect children's personal information.
+      </p>
+
+      <h2>13. Third-party services</h2>
+      <p>
+        PrecioScan may interact with third-party services, including:
+      </p>
+      <ul>
+        <li>Google AdMob (advertising)</li>
+        <li>Google Play Billing / Google Play (in-app purchases)</li>
+        <li>OpenFoodFacts (product name lookup by barcode)</li>
+      </ul>
+      <p>
+        Each of these services may be governed by its own privacy policies and terms.
+      </p>
+
+      <h2>14. Security</h2>
+      <p>
+        Reasonable measures are adopted to protect the information used by the application.
+        However, no system is completely secure,
+        and absolute security cannot be guaranteed.
+      </p>
+
+      <h2>15. Changes to this policy</h2>
+      <p>
+        This Privacy Policy may be updated in the future to reflect functional,
+        legal, or technical changes. The most recent version will be available
+        at the official URL published by PrecioScan.
+      </p>
+
+      <h2>16. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, you may contact:
+      </p>
+      <p>
+        <strong>Email: seba.r.iriarte@gmail.com</strong>
+      </p>
+
+      <h2>17. Official policy URL</h2>
+      <p>
+        This policy may be published at:
+        <br />
+        <a href="https://sebairi.github.io/precioscan-privacy/">
+          https://sebairi.github.io/precioscan-privacy/
+        </a>
+      </p>
+    </section>
+
+    <!-- PORTUGUÊS (BRASIL) -->
+    <section class="lang-section" data-lang="pt-BR">
+      <h1>Política de Privacidade do PrecioScan</h1>
+      <p class="small"><strong>Última atualização:</strong> 10/03/2026</p>
+
+      <p>
+        Esta Política de Privacidade descreve como o aplicativo <strong>PrecioScan</strong> funciona,
+        quais informações podem ser tratadas, como essas informações são utilizadas
+        e quais opções o usuário possui.
+      </p>
+
+      <h2>1. Informações gerais</h2>
+      <p>
+        PrecioScan é um aplicativo para escanear produtos, registrar preços,
+        controlar orçamentos, salvar histórico de compras e gerar relatórios.
+        O aplicativo não exige a criação de conta nem login para o uso normal.
+      </p>
+
+      <h2>2. Informações que o aplicativo pode coletar ou armazenar</h2>
+      <p>O PrecioScan pode tratar as seguintes categorias de informações:</p>
+      <ul>
+        <li>
+          <strong>Dados inseridos pelo usuário:</strong> nomes de produtos, preços,
+          quantidades, orçamento, histórico de compras e configurações do aplicativo.
+        </li>
+        <li>
+          <strong>Dados de escaneamento:</strong> códigos de barras escaneados por meio da câmera do dispositivo.
+        </li>
+        <li>
+          <strong>Dados armazenados localmente:</strong> o aplicativo salva informações no dispositivo do usuário
+          por meio de armazenamento local, incluindo bancos de dados locais e preferências de configuração.
+        </li>
+        <li>
+          <strong>Dados relacionados à publicidade:</strong> se a versão gratuita exibir anúncios,
+          provedores externos de publicidade, como o Google AdMob, poderão coletar informações técnicas
+          do dispositivo e outros dados necessários para exibir, medir e melhorar anúncios.
+        </li>
+        <li>
+          <strong>Dados relacionados a compras dentro do aplicativo:</strong> se o usuário adquirir
+          o PrecioScan Pro, o processamento do pagamento e a validação da compra serão realizados por meio
+          do Google Play e de seus sistemas associados.
+        </li>
+      </ul>
+
+      <h2>3. Uso da câmera</h2>
+      <p>
+        O PrecioScan utiliza a câmera exclusivamente para escanear códigos de barras.
+        O aplicativo não utiliza a câmera para gravar vídeo, tirar fotos pessoais
+        nem coletar imagens para outros fins.
+      </p>
+
+      <h2>4. Consulta de produtos no OpenFoodFacts</h2>
+      <p>
+        Quando o usuário escaneia um código de barras, o aplicativo pode consultar o serviço
+        <strong>OpenFoodFacts</strong> para tentar obter automaticamente o nome do produto.
+        Nesse processo, o código de barras escaneado pode ser enviado a esse serviço externo.
+      </p>
+      <p>
+        O PrecioScan não controla o funcionamento, a disponibilidade nem as políticas de privacidade do OpenFoodFacts.
+        Recomenda-se que o usuário também consulte a política de privacidade desse serviço, se considerar necessário.
+      </p>
+
+      <h2>5. Armazenamento local no dispositivo</h2>
+      <p>
+        As principais informações utilizadas pelo PrecioScan, como produtos escaneados,
+        histórico, orçamentos, último preço lembrado e preferências, são armazenadas principalmente
+        <strong>no dispositivo do usuário</strong>.
+      </p>
+      <p>
+        Isso significa que muitos dos dados operacionais do aplicativo
+        não são enviados automaticamente para servidores próprios do PrecioScan.
+      </p>
+
+      <h2>6. Publicidade</h2>
+      <p>
+        A versão gratuita do PrecioScan pode exibir anúncios por meio do <strong>Google AdMob</strong>.
+        O Google e seus parceiros podem tratar determinados dados técnicos,
+        como identificadores do dispositivo, endereço IP aproximado, informações do sistema,
+        eventos de interação com anúncios e outras informações necessárias
+        para a entrega, medição e melhoria da publicidade.
+      </p>
+      <p>
+        O tratamento desses dados pelo Google AdMob é regido pelas políticas do Google.
+      </p>
+
+      <h2>7. Compras dentro do aplicativo</h2>
+      <p>
+        O PrecioScan pode oferecer uma compra única chamada <strong>PrecioScan Pro</strong>,
+        que permite remover anúncios e desbloquear recursos premium, como a exportação de relatórios.
+      </p>
+      <p>
+        As compras dentro do aplicativo são processadas pelo <strong>Google Play</strong>.
+        O PrecioScan não armazena dados completos de cartões de crédito
+        nem dados financeiros sensíveis do usuário.
+      </p>
+
+      <h2>8. Exportação e compartilhamento de relatórios</h2>
+      <p>
+        O aplicativo pode permitir a exportação de relatórios em formatos como CSV ou Excel.
+        Quando o usuário utiliza a função de exportação, o arquivo é gerado no dispositivo
+        e depois pode ser compartilhado manualmente pelo usuário com outros aplicativos ou serviços.
+      </p>
+      <p>
+        O uso posterior desses arquivos por terceiros dependerá do aplicativo
+        ou serviço escolhido pelo usuário para compartilhá-los.
+      </p>
+
+      <h2>9. Base legal e finalidade do tratamento</h2>
+      <p>
+        As informações tratadas pelo PrecioScan são utilizadas para:
+      </p>
+      <ul>
+        <li>Permitir o funcionamento principal do aplicativo.</li>
+        <li>Salvar produtos, compras, histórico e relatórios.</li>
+        <li>Exibir anúncios na versão gratuita.</li>
+        <li>Validar e restaurar compras da versão Pro.</li>
+        <li>Aplicar configurações escolhidas pelo usuário, como tema ou moeda.</li>
+      </ul>
+
+      <h2>10. Retenção das informações</h2>
+      <p>
+        Os dados armazenados localmente permanecem no dispositivo do usuário
+        até que sejam excluídos pelo próprio usuário, pela desinstalação do aplicativo,
+        pela limpeza manual dos dados ou por outras ações do sistema operacional.
+      </p>
+
+      <h2>11. Exclusão de dados</h2>
+      <p>
+        O usuário pode excluir os dados do aplicativo por meio das funções internas disponíveis,
+        e também pode remover as informações armazenadas localmente desinstalando o aplicativo
+        ou apagando seus dados nas configurações do dispositivo.
+      </p>
+
+      <h2>12. Menores de idade</h2>
+      <p>
+        O PrecioScan não é direcionado especificamente a menores de idade
+        e não busca coletar deliberadamente informações pessoais de crianças.
+      </p>
+
+      <h2>13. Serviços de terceiros</h2>
+      <p>
+        O PrecioScan pode interagir com serviços de terceiros, incluindo:
+      </p>
+      <ul>
+        <li>Google AdMob (publicidade)</li>
+        <li>Google Play Billing / Google Play (compras dentro do aplicativo)</li>
+        <li>OpenFoodFacts (consulta de nomes de produtos por código de barras)</li>
+      </ul>
+      <p>
+        Cada um desses serviços pode ser regido por suas próprias políticas de privacidade e termos.
+      </p>
+
+      <h2>14. Segurança</h2>
+      <p>
+        Medidas razoáveis são adotadas para proteger as informações utilizadas pelo aplicativo.
+        No entanto, nenhum sistema é completamente seguro
+        e não é possível garantir segurança absoluta.
+      </p>
+
+      <h2>15. Alterações nesta política</h2>
+      <p>
+        Esta Política de Privacidade poderá ser atualizada no futuro para refletir mudanças funcionais,
+        legais ou técnicas. A versão mais recente estará disponível na URL oficial publicada
+        pelo PrecioScan.
+      </p>
+
+      <h2>16. Contato</h2>
+      <p>
+        Se você tiver dúvidas sobre esta Política de Privacidade, pode entrar em contato por:
+      </p>
+      <p>
+        <strong>Email: seba.r.iriarte@gmail.com</strong>
+      </p>
+
+      <h2>17. URL oficial da política</h2>
+      <p>
+        Esta política pode ser publicada em:
+        <br />
+        <a href="https://sebairi.github.io/precioscan-privacy/">
+          https://sebairi.github.io/precioscan-privacy/
+        </a>
+      </p>
+    </section>
   </div>
+
+  <script>
+    const buttons = document.querySelectorAll('.lang-btn');
+    const sections = document.querySelectorAll('.lang-section');
+
+    function setLanguage(lang) {
+      sections.forEach(section => {
+        section.classList.toggle('active', section.dataset.lang === lang);
+      });
+
+      buttons.forEach(button => {
+        button.classList.toggle('active', button.dataset.lang === lang);
+      });
+
+      document.documentElement.lang = lang;
+      localStorage.setItem('precioscan_privacy_lang', lang);
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        setLanguage(button.dataset.lang);
+      });
+    });
+
+    const savedLang = localStorage.getItem('precioscan_privacy_lang');
+    const browserLang = navigator.language || navigator.userLanguage || 'es';
+
+    if (savedLang === 'en' || savedLang === 'es' || savedLang === 'pt-BR') {
+      setLanguage(savedLang);
+    } else if (browserLang.toLowerCase().startsWith('pt')) {
+      setLanguage('pt-BR');
+    } else if (browserLang.toLowerCase().startsWith('en')) {
+      setLanguage('en');
+    } else {
+      setLanguage('es');
+    }
+  </script>
 </body>
 </html>
