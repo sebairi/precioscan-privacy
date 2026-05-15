@@ -763,33 +763,29 @@
   </div>
 
   <script>
-    const buttons = document.querySelectorAll('.lang-btn');
+     const buttons = document.querySelectorAll('.lang-btn');
     const sections = document.querySelectorAll('.lang-section');
-
     function setLanguage(lang) {
       sections.forEach(section => {
         section.classList.toggle('active', section.dataset.lang === lang);
       });
-
       buttons.forEach(button => {
         button.classList.toggle('active', button.dataset.lang === lang);
       });
-
       document.documentElement.lang = lang;
       localStorage.setItem('precioscan_privacy_lang', lang);
     }
-
     buttons.forEach(button => {
       button.addEventListener('click', () => {
         setLanguage(button.dataset.lang);
       });
     });
-
     const savedLang = localStorage.getItem('precioscan_privacy_lang');
     const browserLang = navigator.language || navigator.userLanguage || 'es';
-
-    if (savedLang === 'en' || savedLang === 'es' || savedLang === 'pt-BR') {
+    if (['es', 'en', 'pt-BR', 'zh'].includes(savedLang)) {
       setLanguage(savedLang);
+    } else if (browserLang.toLowerCase().startsWith('zh')) {
+      setLanguage('zh');
     } else if (browserLang.toLowerCase().startsWith('pt')) {
       setLanguage('pt-BR');
     } else if (browserLang.toLowerCase().startsWith('en')) {
